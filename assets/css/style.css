@@ -29,7 +29,7 @@ nav ul li a:hover {
     --fs-3x2l: 24px;
     --fs-4xl: 27px;
     --fs-4x8l: 31px;
-    --fs-5x4l: 35px;
+    --fs-5x4l: 32px;
     /* color */
     --clr-white: #fbfbfb;
     --clr-blue: #3ea5ee;
@@ -309,10 +309,6 @@ nav ul li a:hover {
     margin: -2px;
 }
 
-/* .accordion.no-shadow .accordion-item {
-    box-shadow: none !important;
-  } */
-
 /* engage */
 .engage_box_shadow {
     border-radius: 12px;
@@ -486,18 +482,8 @@ footer ul li a:hover {
         --fs-2x4l: 20px;
         --fs-3x2l: 26px;
         --fs-4xl: 28px;
-        --fs-4x8l: 35px;
-        --fs-5x4l: 39px;
-        /* color */
-        --clr-white: #fbfbfb;
-        --clr-blue: #3ea5ee;
-        --bg-clr: #33a7f9;
-        /* line-height */
-        --line-h-6x3l: 63px;
-        --line-h-170: 170%;
-        --line-h-128: 128%;
-        --line-h-143: 143%;
-        --line-h-150: 150%;
+        --fs-4x8l: 34px;
+        --fs-5x4l: 37px;
     }
 
     .simplicity_box_shadow {
@@ -519,44 +505,31 @@ footer ul li a:hover {
 
 @media (min-width:767.98px) {
     :root {
-        --fs-xsm: 16px;
         --fs-2xl: 18px;
         --fs-2x4l: 22px;
         --fs-3x2l: 29px;
         --fs-4xl: 32px;
         --fs-4x8l: 39px;
         --fs-5x4l: 44px;
-        /* color */
-        --clr-white: #fbfbfb;
-        --clr-blue: #3ea5ee;
-        --bg-clr: #33a7f9;
-        /* line-height */
-        --line-h-6x3l: 63px;
-        --line-h-170: 170%;
-        --line-h-128: 128%;
-        --line-h-143: 143%;
-        --line-h-150: 150%;
     }
 }
 
 @media (min-width:991.98px) {
     :root {
-        --fs-xsm: 16px;
         --fs-2xl: 20px;
         --fs-2x4l: 24px;
+        --fs-3x2l: 30px;
+        --fs-4xl: 40px;
+        --fs-4x8l: 42px;
+        --fs-5x4l: 50px;
+    }
+}
+
+@media (min-width:1999.98px) {
+    :root {
         --fs-3x2l: 32px;
         --fs-4xl: 40px;
         --fs-4x8l: 48px;
         --fs-5x4l: 54px;
-        /* color */
-        --clr-white: #fbfbfb;
-        --clr-blue: #3ea5ee;
-        --bg-clr: #33a7f9;
-        /* line-height */
-        --line-h-6x3l: 63px;
-        --line-h-170: 170%;
-        --line-h-128: 128%;
-        --line-h-143: 143%;
-        --line-h-150: 150%;
     }
 }
